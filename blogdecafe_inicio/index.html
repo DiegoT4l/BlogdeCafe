@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogdeCafé</title>
+    <meta name="description" content="Web page blog of coffee">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="fonts">
+    <link rel="preload" href="img/blog1.jpg" as="image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap');
+</style>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin center-txt">Blog <span class="logo__bold">deCafé</span></h1>
+                </a>
+
+                <nav class="navigation">
+                    <a href="us.html" class="navigation__link">About us</a>
+                    <a href="courses.html" class="navigation__link">Courses</a>
+                    <a href="contact.html" class="navigation__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="header__txt">
+            <h2 class="no-margin">coffee blog with tips and courses</h2>
+            <p class="no-margin">Learn from the experts with the best recipes and tips</p>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <main class="blog">
+            <h3>Our Blog</h3>
+            <article class="entry">
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="blog image">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">Types of coffee beans</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nunc, blandit eget porta id, commodo eu dolor. Curabitur mollis tristique enim, at sollicitudin lorem sagittis a. Nulla vel velit quis sapien gravida condimentum. Mauris euismod congue maximus. Praesent lacinia auctor gravida. Curabitur aliquam ligula erat.</p>
+                    <a href="entry.html" class="button button--primary">Read Entry</a>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="blog image">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">3 Delicious coffee recipes</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nunc, blandit eget porta id, commodo eu dolor. Curabitur mollis tristique enim, at sollicitudin lorem sagittis a. Nulla vel velit quis sapien gravida condimentum. Mauris euismod congue maximus. Praesent lacinia auctor gravida. Curabitur aliquam ligula erat.</p>
+                    <a href="entry.html" class="button button--primary">Read Entry</a>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="blog image">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">Benefits of Coffee</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nunc, blandit eget porta id, commodo eu dolor. Curabitur mollis tristique enim, at sollicitudin lorem sagittis a. Nulla vel velit quis sapien gravida condimentum. Mauris euismod congue maximus. Praesent lacinia auctor gravida. Curabitur aliquam ligula erat.</p>
+                    <a href="entry.html" class="button button--primary">Read Entry</a>
+                </div>
+            </article>
+
+        </main>
+        <aside class="sidebar">
+            <h3>Our Courses & Workshops</h3>
+
+            <ul class="courses no-padding">
+                <li class="widget-course">
+                    <h4 class="no-margin">Coffee Extraction Techniques</h4>
+                    <p class="widget-course__label">Price: 
+                        <span class="widget-course__info">Free</span>
+                    </p>
+                    <p class="widget-course__label">Quota: 
+                        <span class="widget-course__info">20</span>
+                    </p>
+                    <a href="entry.html" class="button button--secundary">More Info</a>
+                </li>
+
+                <li class="widget-course">
+                    <h4 class="no-margin">4 Coffee Recipes for Beginners</h4>
+                    <p class="widget-course__label">price: 
+                        <span class="widget-course__info">Free</span>
+                    </p>
+                    <p class="widget-course__label">Quota: 
+                        <span class="widget-course__info">20</span>
+                    </p>
+                    <a href="entry.html" class="button button--secundary">More Info</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin center-txt">Blog <span class="logo__bold">DeCafé </span></h1>
+                </a>
+
+                <nav class="navigation">
+                    <a href="us.html" class="navigation__link">About us</a>
+                    <a href="courses.html" class="navigation__link"> Courses</a>
+                    <a href="contact.html" class="navigation__link"> Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
