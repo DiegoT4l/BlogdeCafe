@@ -29,6 +29,7 @@ Este proyecto está bajo la Licencia ISC - [Más Detalles](https://github.com/Di
 - JavaScript
 - modernizr
 - Lorem Ipsum
+
 # Documentación
 
 ## Funcionalidades Principales del Blog de Café
